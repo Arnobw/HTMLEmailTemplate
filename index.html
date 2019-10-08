@@ -4,33 +4,122 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Demystifying Email Design</title>
+    <title>Dé nieuwsbrief! ja dat klopt</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <style>
+        .kleineFoto {
+            width: 100%;
+            height: 140px;
+            display: block;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+        .content {
+            padding: 20px 0 30px 0;
+        }
+
+        .heroTable {
+            border: 0;
+            width: 600px;
+            border: 1px solid #cccccc;
+            border-collapse: collapse;
+        }
+        
+        .heroFoto {
+            width:600px;
+            height:429px;
+            display:block;
+        }
+
+        .inner {
+            padding:40px 30px 40px 30px;
+            background-color: #ffffff;
+        }
+
+        .header {
+            color:#153643;
+            font-family:Arial, sans-serif;
+            font-size:20px;
+            text-align: center;
+        }
+        
+        .tekstBox {
+            padding:20px 0 30px 0;
+            color:#153643;
+            font-family: Arial, sans-serif;
+            font-size: 16px;
+            line-height: 20px;
+
+        }
+
+        .subHeader {
+            color:#153643;
+            font-family:Arial, sans-serif;
+            font-size:16px;
+            line-height: 20px;
+            text-align:center;
+        }
+
+        .footer {
+            background-color:#ee4c50;
+            padding:30px 30px 30px 30px;
+            font-family: Arial, sans-serif; 
+            font-size: 14px;
+            color:#ffffff;
+
+        }
+
+        .unsub {
+            color: #ffffff;
+        }
+
+        .icoon {
+            width:38px;
+            height:38px;
+            display:block;                                                
+        }
+
+        .filler {
+            font-size:0;
+            line-height:0;
+            width:5px;
+
+        }
+       
+    </style>
+
+
+
+
+
+
 </head>
 
-<body style="margin: 0; padding: 0;">
+<body>
     <table cellpadding="0" cellspacing="0" width="100%">
         <tr>
-            <td style="padding: 20px 0 30px 0;">
-                <table align="center" border="0" cellpadding="0" cellspacing="0" width="600"
-                    style="border-collapse:collapse; border: 1px solid #cccccc;">
+            <td class="content">
+                <table class="heroTable" align="center" border="0" cellpadding="0" cellspacing="0">
                     <tr>
                         <td align="center" bgcolor="#70bbd9">
-                            <img src="img/man.jpg" alt="eendje" width="600" height="429" style="display: block;" />
+                            <img class="heroFoto" src="img/man.jpg" alt="eendje"/>
                         </td>
                     </tr>
                     <tr>
-                        <td style="padding: 40px 30px 40px 30px;" bgcolor="#ffffff">
+                        <td class="inner" >
                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                 <tr>
-                                    <td
-                                        style="color: #153643; font-family: Arial, sans-serif; font-size: 20px; text-align: center;">
+                                    <td class="header">
                                         <b>Een elegante oplossing voor kantoorproblemen.</b>
                                     </td>
                                 </tr>
                                 <tr>
-                                    <td
-                                        style="padding: 20px 0 30px 0; color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
+                                    <td class="tekstBox">
                                         Problemen op kantoor zijn nooit handig of behulpzaam.
                                         Integendeel, ik zou zelfs durven suggereren dat ze tegenwerken en tevens alsook
                                         nefast slecht zijn voor de productiviteit.
@@ -44,21 +133,19 @@
                                                 <td width="260" valign="top">
                                                     <table border="0" cellpadding="0" width="100%">
                                                         <tr>
-                                                            <td
-                                                                style="color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px; text-align: center;">
+                                                            <td class="subHeader">
                                                                 <b> Snelle en gemakkelijke levering</b>
                                                             </td>
 
                                                         </tr>
                                                         <tr>
-                                                            <td bgcolor="#62BDDC">
-                                                                <img src="img/levering.png" alt="broodje" width="100%"
-                                                                    height="140" style="display: block;" />
+                                                            <td>
+                                                                <img class="kleineFoto" src="img/levering.png"
+                                                                    alt="broodje" />
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td
-                                                                style="color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
+                                                            <td class="tekstBox">
                                                                 Levering van het oplossingsproduct is geen probleem,
                                                                 we voorzien een wagen die het product levert zodat het
                                                                 op de bestemming geraakt
@@ -74,20 +161,17 @@
                                                 <td width="260" valign="top">
                                                     <table border="0" cellpadding="0" width="100%">
                                                         <tr>
-                                                            <td
-                                                                style="color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px; text-align: center;">
+                                                            <td class="subHeader">
                                                                 <b>Progressieve installatie</b>
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td bgcolor="#62BDDC">
-                                                                <img src="img/werken.jpg" alt="broodje" width="100%"
-                                                                    height="140" style="display: block;" />
+                                                            <td>
+                                                                <img class="kleineFoto" src="img/werken.jpg" alt="broodje"/>
                                                             </td>
                                                         </tr>
                                                         <tr>
-                                                            <td
-                                                                style="color: #153643; font-family: Arial, sans-serif; font-size: 16px; line-height: 20px;">
+                                                            <td class="tekstBox">
                                                                 We installeren het product op de benodigde locatie
                                                                 met onze specifiek opgeleide experts die veel kennis
                                                                 hebben over het installeren van het product.
@@ -105,13 +189,13 @@
                         </td>
                     </tr>
                     <tr>
-                        <td bgcolor="#ee4c50" style="padding: 30px 30px 30px 30px">
+                        <td class="footer">
                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
                                 <tr>
-                                    <td style="color: #ffffff; font-family: Arial, sans-serif; font-size: 14px;">
+                                    <td>
                                         &reg; Ikzelf<br />
-                                        <a href="#" style="color: #ffffff;">
-                                            <font color="#ffffff">Blokkeer</font>
+                                        <a class="unsub" href="#" >
+                                           Blokkeer
                                         </a> deze nieuwsbrief onmiddellijk.
                                     </td>
 
@@ -120,15 +204,13 @@
                                             <tr>
                                                 <td>
                                                     <a href="https://wwww.twitter.com/">
-                                                        <img src="img/twitter.png" alt="Twitter" width="38" height="38"
-                                                            style="display: block;" border="0" />
+                                                        <img class="icoon" src="img/twitter.png" alt="Twitter" border="0" />
                                                     </a>
                                                 </td>
-                                                <td style="font-size:0; line-height: 0; width:20">&nbsp;</td>
+                                                <td class="filler" >&nbsp;</td>
                                                 <td>
                                                     <a href="https://youtu.be/p3G5IXn0K7A">
-                                                        <img src="img/facebook.png" alt="Twitter" width="38" height="38"
-                                                            style="display: block;" border="0" />
+                                                        <img class="icoon" src="img/facebook.png" alt="Twitter" border="0" />
                                                     </a>
                                                 </td>
                                             </tr>
@@ -144,5 +226,36 @@
         </tr>
     </table>
 </body>
+
+<!-- ░░░░░░░░░░░░░░░░██████████████████
+░░░░░░░░░░░░████░░░░░░░░░░░░░░░░░░████
+░░░░░░░░░░██░░░░░░░░░░░░░░░░░░░░░░░░░░██
+░░░░░░░░░░██░░░░░░░░░░░░░░░░░░░░░░░░░░██
+░░░░░░░░██░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░██
+░░░░░░░░██░░░░░░░░░░░░░░░░░░░░██████░░░░██
+░░░░░░░░██░░░░░░░░░░░░░░░░░░░░██████░░░░██
+░░░░░░░░██░░░░██████░░░░██░░░░██████░░░░██
+░░░░░░░░░░██░░░░░░░░░░██████░░░░░░░░░░██
+░░░░░░░░████░░██░░░░░░░░░░░░░░░░░░██░░████
+░░░░░░░░██░░░░██████████████████████░░░░██
+░░░░░░░░██░░░░░░██░░██░░██░░██░░██░░░░░░██
+░░░░░░░░░░████░░░░██████████████░░░░████
+░░░░░░░░██████████░░░░░░░░░░░░░░██████████
+░░░░░░██░░██████████████████████████████░░██
+░░░░████░░██░░░░██░░░░░░██░░░░░░██░░░░██░░████
+░░░░██░░░░░░██░░░░██████░░██████░░░░██░░░░░░██
+░░██░░░░████░░██████░░░░██░░░░██████░░████░░░░██
+░░██░░░░░░░░██░░░░██░░░░░░░░░░██░░░░██░░░░░░░░██
+░░██░░░░░░░░░░██░░██░░░░░░░░░░██░░██░░░░░░░░░░██
+░░░░██░░░░░░██░░░░████░░░░░░████░░░░██░░░░░░██
+░░░░░░████░░██░░░░██░░░░░░░░░░██░░░░██░░████
+░░░░░░░░██████░░░░██████████████░░░░██████
+░░░░░░░░░░████░░░░██████████████░░░░████
+░░░░░░░░██████████████████████████████████
+░░░░░░░░████████████████░░████████████████
+░░░░░░░░░░████████████░░░░░░████████████
+░░░░░░██████░░░░░░░░██░░░░░░██░░░░░░░░██████
+░░░░░░██░░░░░░░░░░████░░░░░░████░░░░░░░░░░██
+░░░░░░░░██████████░░░░░░░░░░░░░░██████████ -->
 
 </html>
