@@ -14,6 +14,7 @@
         body {
             margin: 0;
             padding: 0;
+            font-family: Arial, sans-serif;
         }
 
         .content {
@@ -40,7 +41,7 @@
         }
 
         .header {
-            color: #000000;
+            color: #0F8BC7;
             font-family: Arial, sans-serif;
             font-size: 30px;
             text-align: center;
@@ -103,6 +104,7 @@
 
         .main {
             margin-top: 15px;
+            margin-bottom: 15px;
         }
     </style>
 
@@ -112,7 +114,7 @@
 </head>
 
 <body style="margin: 0; padding: 0;">
-    <table class="main" border="0" cellpadding="0" cellspacing="0" width="100%" style=" margin-left:auto;margin-right:auto;"
+    <table class="main" border="0" cellpadding="0" cellspacing="0" width="100%" style=" margin-left:auto;margin-right:auto; margin-top: 15px; margin-bottom: 15px;"
         align="center">
         <tr>
             <td>
@@ -122,9 +124,9 @@
                         <td>
 
 
-                            <!-- artikel -->
+                            <!--header -->
                             <table border="0" cellpadding="0" cellspacing="0" width="600px"
-                                style="margin:0 auto;  max-width: 650px; margin:0 auto;" align="center">
+                                style="margin:0 auto;  max-width: 650px; margin:0 auto; margin-top:10px;" align="center">
                              
 
                                         <tr>
@@ -160,9 +162,12 @@
                                             </td>
                                         </tr>
                             </table>
+                            <!-- header -->
                             </td>
 
                     </tr>
+
+                        <!-- artikel -->
                     <repeater>
                             <layout>
 
@@ -170,6 +175,13 @@
                     <tr>
                         <td>
                             <table cellpadding="0" cellspacing="0" align="center" width="100%">
+                                <tr>
+                                    <td class="header" align="center">
+                                       <singleline label="title">
+                                        <b>titel</b>
+                                    </singleline>
+                                    </td>
+                                </tr>
                                 <tr>
                                     <td>
                                         <img editable width="100%" height="400" class="heroFoto" label="artikelFoto"
@@ -218,13 +230,15 @@
 
 
                     </repeater>
+
+                        <!-- artikel -->
             </td>
         </tr>
 
         <tr>
             <td>
                 <!-- footer -->
-                <table border="0" cellpadding="0" cellspacing="0" width="600" style="margin:0 auto;  max-width: 650px;">
+                <table border="0" cellpadding="0" cellspacing="0" width="600" style="margin:0 auto;  max-width: 650px; ">
                     <tr>
                         <td class="footer">
                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -280,7 +294,7 @@
             </td>
         </tr>
 
-        <!-- artikel -->
+    
 
 
 
