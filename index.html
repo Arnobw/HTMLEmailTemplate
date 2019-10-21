@@ -5,6 +5,18 @@
 <head>
 
     <style>
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #00A0C6;
+            text-decoration: none;
+            cursor: pointer;
+        }
+
+
         .kleineFoto {
             width: 100%;
             height: 140px;
@@ -114,8 +126,8 @@
 </head>
 
 <body style="margin: 0; padding: 0;">
-    <table class="main" border="0" cellpadding="0" cellspacing="0" width="100%" style=" margin-left:auto;margin-right:auto; margin-top: 15px; margin-bottom: 15px;"
-        align="center">
+    <table class="main" border="0" cellpadding="0" cellspacing="0" width="100%"
+        style=" margin-left:auto;margin-right:auto; margin-top: 15px; margin-bottom: 15px;" align="center">
         <tr>
             <td>
                 <table class="wrapper" cellpadding="0" cellspacing="0" width="600px"
@@ -126,118 +138,124 @@
 
                             <!--header -->
                             <table border="0" cellpadding="0" cellspacing="0" width="600px"
-                                style="margin:0 auto;  max-width: 650px; margin:0 auto; margin-top:10px;" align="center">
-                             
-
-                                        <tr>
-                                            <td>
-                                                <table border="0" cellpadding="0" cellspacing="0" width="600"
-                                                    style="margin:0 auto;  max-width: 650px;">
-                                                    <tr>
-                                                        <td class="header">
-                                                            <table border="0" cellpadding="0" cellspacing="0"
-                                                                width="100%">
-                                                                <tr>
-                                                                    <td>
-                                                                    <td align="left">
-                                                                        <a href="https://www.prosite.be">
-                                                                            <img class="logo" src="img/logo.png" />
-                                                                        </a>
-                                                                    </td>
+                                style="margin:0 auto;  max-width: 650px; margin:0 auto; margin-top:10px;"
+                                align="center">
 
 
-
-                                                        </td>
-
-                                                        <td align="right">
-                                                            <table border="0" cellpadding="0" cellspacing="0">
-                                                                <tr>
-
-                                                                </tr>
-                                                            </table>
-                                                        </td>
-                                                    </tr>
-
-                                                </table>
-                                            </td>
-                                        </tr>
-                            </table>
-                            <!-- header -->
-                            </td>
-
-                    </tr>
-
-                        <!-- artikel -->
-                    <repeater>
-                            <layout>
-
-
-                    <tr>
-                        <td>
-                            <table cellpadding="0" cellspacing="0" align="center" width="100%">
-                                <tr>
-                                    <td class="header" align="center">
-                                       <singleline label="title">
-                                        <b>titel</b>
-                                    </singleline>
-                                    </td>
-                                </tr>
                                 <tr>
                                     <td>
-                                        <img editable width="100%" height="400" class="heroFoto" label="artikelFoto"
-                                            src="img/man.jpg" alt="" />
-                                    </td>
-                                </tr>
-                            </table>
-
-                        </td>
-                    </tr>
-                    <tr>
-                        <td class="tekstBox">
-                            <multiline label='Article'>
-                                Problemen op kantoor zijn nooit handig of behulpzaam.
-                                Integendeel, ik zou zelfs durven suggereren dat ze tegenwerken en tevens alsook
-                                nefast slecht zijn voor de productiviteit.
-                                Ons product is de oplossing voor deze kantoorproblemen.
-                            </multiline>
-                        </td>
-                    </tr>
-
-                    <tr>
-                        <td>
-                            <table width="100%" cellspacing="0" cellpadding="0" align="center">
-                                <tr>
-                                    <td>
-                                        <table cellspacing="0" cellpadding="0" align="center"
-                                            style="margin-bottom: 20px;">
+                                        <table border="0" cellpadding="0" cellspacing="0" width="600"
+                                            style="margin:0 auto;  max-width: 650px;">
                                             <tr>
-                                                <td style="border-radius: 2px; padding: 8px 12px; border: 1px solid #cccccc;border-radius: 2px;font-family: Helvetica, Arial, sans-serif;font-size: 14px; color: #ffffff;text-decoration: none;font-weight:bold;display: block;" bgcolor="#0F8BC7">
-                                                    <singleline label="button">
-                                                        Lees meer
-                                                </singleline>
+                                                <td class="header">
+                                                    <table border="0" cellpadding="0" cellspacing="0" width="100%">
+                                                        <tr>
+                                                            <td>
+                                                            <td align="left">
+                                                                <a href="https://www.prosite.be">
+                                                                    <img class="logo" src="img/logo.png" />
+                                                                </a>
+                                                            </td>
+
+
+
+                                                </td>
+
+                                                <td align="right">
+                                                    <table border="0" cellpadding="0" cellspacing="0">
+                                                        <tr>
+
+                                                        </tr>
+                                                    </table>
                                                 </td>
                                             </tr>
+
                                         </table>
                                     </td>
                                 </tr>
                             </table>
+                            <!-- header -->
                         </td>
+
                     </tr>
 
+                    <!-- artikel -->
+                    <repeater>
+                        <layout>
 
-                    </layout>
+
+                            <tr>
+                                <td>
+                                    <table cellpadding="0" cellspacing="0" align="center" width="100%">
+                                        <tr>
+                                            <td class="header" align="center">
+                                                <singleline label="title">
+                                                    <b>titel</b>
+                                                </singleline>
+                                            </td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img editable width="100%" height="400" class="heroFoto"
+                                                    label="artikelFoto" src="img/man.jpg" alt="" />
+                                            </td>
+                                        </tr>
+                                    </table>
+
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class="tekstBox">
+                                    <multiline label='Article'>
+                                        Problemen op kantoor zijn nooit handig of behulpzaam.
+                                        Integendeel, ik zou zelfs durven suggereren dat ze tegenwerken en tevens alsook
+                                        nefast slecht zijn voor de productiviteit.
+                                        Ons product is de oplossing voor deze kantoorproblemen.
+                                    </multiline>
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td>
+                                    <table width="100%" cellspacing="0" cellpadding="0" align="center">
+                                        <tr>
+                                            <td>
+                                                <table cellspacing="0" cellpadding="0" align="center"
+                                                   >
+                                                    <tr>
+                                                        <td style="border-radius: 2px; padding: 8px 12px; border: 1px solid #cccccc;border-radius: 2px;font-family: Helvetica, Arial, sans-serif;font-size: 14px; color: #ffffff;text-decoration: none;font-weight:bold;display: block; "
+                                                            bgcolor="#0F8BC7">
+                                                            <singleline label="button">
+                                                                Lees meer
+                                                            </singleline>
+                                                        </td>
+                                                    </tr>
+                                                </table>
+                                            </td>
+                                        </tr>
+                                    </table>
+                                </td>
+                            </tr>
+
+
+                        </layout>
 
 
                     </repeater>
 
-                        <!-- artikel -->
+                    <!-- artikel -->
             </td>
         </tr>
+        <tr>
+            <td class="filler" style="padding: 20px 20px 20px 20px;">
 
+            </td>
+        </tr>
         <tr>
             <td>
                 <!-- footer -->
-                <table border="0" cellpadding="0" cellspacing="0" width="600" style="margin:0 auto;  max-width: 650px; ">
+                <table border="0" cellpadding="0" cellspacing="0" width="600"
+                    style="margin:0 auto; margin-top:20px;  max-width: 650px;">
                     <tr>
                         <td class="footer">
                             <table border="0" cellpadding="0" cellspacing="0" width="100%">
@@ -293,7 +311,7 @@
             </td>
         </tr>
 
-    
+
 
 
 
